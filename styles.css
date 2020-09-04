@@ -107,13 +107,10 @@ color: #ffffff;}
 
     .hero-block-navigation{
         top:30%;
-        left:5%
-    }
-
-
+        left:5%}
 
     .hero-image-icecream{
-        bottom: -1%;
+        bottom: 0px;
        right: 20%;
     }
 
@@ -121,19 +118,27 @@ color: #ffffff;}
        top: 23%;
        left:15%;
     }
-
-
-} 
-/* 
-@media screen and (min-width: 768px){
+ 
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    .container{
     min-width: 768px;
     padding-left: 34px;
     padding-right: 34px;
 }
 
+.hero-block-more, 
+.hero-block-facts,
+.hero-image-girl{
+    display: block;
+    position: absolute;
+}
 
+
+}
+
+/* 
 @media screen and (min-width: 1200px){
     width: 1200px;
     padding-left: 114px;
     padding-right: 114px
-}
+} */
