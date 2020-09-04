@@ -93,9 +93,7 @@ color: #ffffff;}
 
         .hero-image-ellipse{
             position: absolute;
-            z-index:1;
-
-        }
+            z-index:1;}
 
 @media screen and (max-width: 767px){
 
@@ -110,35 +108,73 @@ color: #ffffff;}
         left:5%}
 
     .hero-image-icecream{
-        bottom: 0px;
+        bottom: -2px;
        right: 20%;
     }
 
     .hero-image-ellipse{
-       top: 23%;
-       left:15%;
+       top: 14%;
+       right: 10%;
     }
  
-@media screen and (min-width: 768px) and (max-width: 1199px){
+@media screen and (min-width: 768px){
+
+    .hero{
+        min-width: 768px;
+        height: 399px;}
+
     .container{
     min-width: 768px;
     padding-left: 34px;
     padding-right: 34px;
 }
 
-.hero-block-more, 
-.hero-block-facts,
-.hero-image-girl{
-    display: block;
-    position: absolute;
+.hero-title{
+    font-size: 22px;
+    line-height: 1.13;}
+    
+    .hero-title-span{
+        font-size: 34px;
+        line-height: 0.91;}
+
+.hero-block-navigation{
+    top:50%;
+    left:5%}
+
+.hero-image-icecream{
+    bottom: 0px;
+   right: 50%;
 }
 
+.hero-image-ellipse{
+   top: 30%;
+   left:15%;}
+
+.hero-block-facts{
 
 }
 
-/* 
-@media screen and (min-width: 1200px){
+.hero-fact{
+    font-family: DM Sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 1.25;
+    text-align: right;
+    color: #ffff;
+}
+
+.hero-fact-span{
+    font-family: "Titan One", sans-serif;
+    font-size: 28px;
+    line-height: 1.14; 
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color:#D41443;  
+}
+
+/* @media screen and (min-width: 1200px){
     width: 1200px;
     padding-left: 114px;
     padding-right: 114px
-} */
+} *
