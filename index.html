@@ -6,29 +6,60 @@
     <title>IceCream</title>
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet">
+    <link rel = "stylesheet" href = "/normalize.css">
+    <link rel="stylesheet" href="/styles.css">
   </head>
   <body>
-      <section class = "hero">
+      <section class = "hero container">
           <div class = "hero-container">
-              <div class = "hero-navigation-block">
-              <h1>Ice Cream made with <span>passion</span></h1>
+
+              <div class = "hero-block-navigation">
+
+              <h1 class = "hero-title">Ice Cream<br> made with<br> <span class = "hero-title-span">passion</span></h1>
+
               <button class = "hero-button" type = "button">Products</button>
+              
               <button  class = "hero-button" type = "button">How it’s made?</button>
+            
             </div>
+            
             <div class = "hero-decoration-block">
-                <img src = "./images/ice.png" alt = "ice-cream">
+
+              <picture class = "hero-image-icecream">
+                <source srcset = "images/icecream_t1.png 1x, images/icecream_t2.png 2x" media = "(max-width: 1199px)"/>
+                <source srcset = "images/icecream_m1.png 1x, images/icecream_m2.png 2x" media = "(max-width: 767px)"/>
+                <source srcset = "images/icecream_d1.png 1x, images/icecream_d2.png 2x" media = "(min-width: 1200px)">
+                <img src = "./images/ice.png" alt = "ice-cream">  
+              </picture>
+
+              <picture class = "hero-image-ellipse">
+                <source srcset = "images/ellipse_t1.png 1x, images/ellipse_t2.png 2x" media = "(max-width: 1199px)"/>
+                <source srcset = "images/ellipse_m1.png 1x, images/ellipse_m2.png 2x" media = "(max-width: 767px)"/>
+                <source srcset = "images/ellipse_d1.png 1x, images/ellipse_d2.png 2x" media = "(min-width: 1200px)">
                 <img src = "./images/Ellipse.png" alt = "ellipse">
-                <img src = "./images/girl.png" alt = "beautiful woman thinks that our ice cream is very good"
+                </picture>
+
+                <picture class = "hero-image-girl">
+                  <source srcset = "./images/girl_t1.png 1x, ./images/girl_t2.png 2x" media = "(max-width: 1199px)"/>
+                  <source srcset = "./images/girl_d1.png 1x, ./images/girl_d2.png 2x" media = "(min-width: 1200px"/>
+                  <img src = "./images/girl.png" alt = "beautiful woman thinks that our ice cream is very good">
+                </picture>
+              
             </div>
               <div class = "hero-link-block">
+
+                <picture class = "hero-image-milkjar">
+                  <source srcset = "./images/milk_t1.png 1x, ./images/milk_t2.png 2x" media = "(max-width: 1199px)"/>
+                  <source srcset = "./images/milk_d1.png 1x, ./images/milk_d2.png 2x" media = "(min-width: 1200px"/>
                   <img src = "./images/milk.png" alt = "milk jar"> 
-              <a class = "hero-text" href = "">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</a>
-            <img src = "./images/arrow.png" alt="arrow"/>   
+                  </picture>
+                 
+              <p><a class = "hero-text" href = "">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</a></p>
+            <img src = "./images/arrow.png" alt="more"/>   
             </div>
-              <p><span>16</span>cafes</p>
-              <p><span>23</span>food trucks</p>
+              <p class = "hero-fact"><span class = "hero-fact-span">16</span>cafes</p>
+              <p class = "hero-fact"><span class = "hero-fact-span">23</span>food trucks</p>
 
           </div>
       </section>

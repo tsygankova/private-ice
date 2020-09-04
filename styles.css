@@ -1,0 +1,67 @@
+.hero{
+    background-color: #FFB8CA;
+    background-size: cover;
+    height: 502px;
+    min-width: 320px;
+}
+
+.hero-block-navigation{
+    padding-top: 193px;
+}
+
+.hero-title{
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 1.15;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+font-family: "Titan One", sans-serif;
+color: #ffffff;}
+
+.hero-title-span{
+    font-size: 48px;
+    line-height: 0.97;
+    color: #D41443;
+}
+
+.container {
+    min-width: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+      margin-left: auto;
+      margin-right: auto;}
+
+    .hero-fact{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 1.15;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        font-family: "Titan One", sans-serif;
+        color: #ffffff;  
+    }
+
+
+@media screen and (min-width: 320px){
+
+    .hero-image-milkjar,
+    .hero-image-girl{
+        display: none;
+    }
+
+} 
+/* 
+@media screen and (min-width: 768px){
+    min-width: 768px;
+    padding-left: 34px;
+    padding-right: 34px;
+}
+
+
+@media screen and (min-width: 1200px){
+    width: 1200px;
+    padding-left: 114px;
+    padding-right: 114px
+}
