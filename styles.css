@@ -225,9 +225,10 @@ text-decoration: none;
     text-transform: uppercase;
     color:#D41443;}}
 
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 1200px){
     .hero{
         height: 665px;
+        max-width: 1280px;
     }
 
     .hero-title{
