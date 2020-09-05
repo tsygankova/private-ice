@@ -135,19 +135,19 @@ color: #ffffff;}
         line-height: 0.91;}
 
 .hero-block-navigation{
-    top: 30%;;
+    top: 23%;;
     left: 5%;}
 
 .hero-block-more{
     display: flex;
     justify-content: center;
     position: absolute;
-    bottom: 29px;
+    bottom: 25px;
     left: 34px;
 }
 
 .text-more{
-    display: inline-block;
+    display: block;
     width: 114px;
     text-align: left;
 }
@@ -158,6 +158,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 8px;
 line-height: 1.5;
+margin-top: 10px;
 color: #ffff;
 text-decoration-line: underline;
 text-decoration-style: solid;
