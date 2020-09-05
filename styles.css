@@ -26,7 +26,7 @@ color: #ffffff;}
     color: #D41443;
 }
 
-.container {
+.hero-container {
     min-width: 320px;
     padding-left: 20px;
     padding-right: 20px;
@@ -40,12 +40,12 @@ color: #ffffff;}
         line-height: 1.15;
         letter-spacing: 0.04em;
         text-transform: uppercase;
-        font-family: "Titan One", sans-serif;
+        font-family: "Titan One";
         color: #ffffff;  
     }
 
     .button-dark {
-        font-family: 'DM Sans', sans-serif;
+        font-family: 'DM Sans';
         color: #ffffff;
         background-color: #D41443;
         border-radius: 20px;
@@ -119,7 +119,6 @@ color: #ffffff;}
 @media screen and (min-width: 768px){
 
     .hero{
-        min-width: 768px;
         height: 399px;}
 
     .hero-container{
@@ -136,8 +135,8 @@ color: #ffffff;}
         line-height: 0.91;}
 
 .hero-block-navigation{
-    top:101px;;
-    left: 34px;}
+    top: 30%;;
+    left: 5%;}
 
 .hero-block-more{
     display: flex;
@@ -170,31 +169,14 @@ text-decoration-color: transparent;
     text-decoration-color: blue;
 }
 
-/* 
-.hero-text::after{
-    position: relative;
-    display:block;
-    content:"";
-    width:100%;
-    height:2px;
-    background-color: transparent;
-    top:-1px;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
-
-.hero-text:hover::after{
-    background-color: #2196F3;}
- */
-
     .hero-image-icecream{
         bottom: -3px;
-       right: 247px;
+       right: 32%;
     }
 
     .hero-image-ellipse{
-       top: 31px;
-       right: 137px;}
+       top: 10%;
+       right: 22%;}
 
     .hero-image-girl{
         position: absolute;
@@ -209,9 +191,7 @@ text-decoration-color: transparent;
     }
 
 .hero-fact{
-    font-family: "DM Sans", sans-serif;
-    font-style: normal;
-    font-weight: normal;
+    font-family: "DM Sans";
     font-size: 8px;
     line-height: 1.25;
     text-transform: lowercase;
@@ -221,7 +201,7 @@ text-decoration-color: transparent;
 
 .hero-fact-span{
     position: relative;
-    font-family: "Titan One", sans-serif;
+    font-family: "Titan One";
     font-size: 28px;
     line-height: 1.14; 
     letter-spacing: 0.04em;
@@ -255,7 +235,7 @@ text-decoration-color: transparent;
     
     .hero-block-navigation{
         top:150px;
-        left: 115px;}
+        left: 9%;}
     
     .hero-block-more{
         display: flex;
@@ -277,25 +257,25 @@ text-decoration-color: transparent;
     }
 
     .hero-image-ellipse{
-       top: 52px;
-       right: 267px;}
+       top: 50px;
+       right: 260px;}
 
     .hero-image-girl{
         bottom: -3px;
-        right: 109px;
+        right: 9%;
     }
     .hero-block-facts{
         position: absolute;
         top: 94px;
         right: 97px;
 }
-
 .hero-fact{
     font-size: 14px;
     line-height: 1.28;}
  
 
 .hero-fact-span{
+    position: relative;
     font-size: 46px;
     line-height: 1.15; 
     letter-spacing: 0.04em;}
@@ -309,6 +289,6 @@ text-decoration-color: transparent;
         height:30px;
         background-color:#ffff;
         border-radius: 50%;
-        top:16px;
-        left: 34px;}
+        top:27px;
+        left: 60px;}
     }}
